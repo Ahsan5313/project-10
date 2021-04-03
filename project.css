@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.protfolio{
+    width: 100%;
+    
+    
+}
+header{
+ 
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(to right, #7CDCF1, #e17320 );
+  
+}
+.sun{
+
+    height: 110px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top:5px;
+    box-shadow: 10px 7px 12px black;
+   margin-top: 10px;
+   margin-left: 15px;
+  
+}
+.sun img{
+    width: 100%;
+    height: 100%;
+
+    
+}
+/* start main*/
+main{
+    width: 100%;
+   
+}
+
+.navbar{
+    width: 100%;
+	
+
+}
+ul {
+    margin:0 ;
+    padding: 0;
+    text-align: left;
+    display: inline;
+    list-style: none;
+	
+}
+ul li{
+     font:bold 12px/18px sans-serif;
+    padding: 20px 25px;
+    position: relative;
+    display: inline-block;
+
+
+
+}
+ul  li  a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+     margin:5px ;
+    text-transform: uppercase;
+	text-shadow:5px 5px 3px black;
+
+}
+ul li:hover{
+    background-color: pink;
+    border-radius: 15px;
+	
+	
+}
+ul  li  ul {
+   position: absolute;
+   text-align: left;
+
+   top:60px;
+   left: 0;
+   width: 200px;
+   text-align: left;
+   display: none;
+   visibility: hidden;
+}
+ul li:hover ul{
+	display:block;
+	visibility:visible;
+
+}
+
+ul  li  ul  li {
+    display: block;
+    text-align: left;
+}
+ul li ul li:hover{
+    color:white;
+}
+ul  li :hover  ul {
+    display: block;
+    visibility: visible;
+}
+ul  ul  ul  li {
+    display: none;
+
+
+}
+ul ul li:hover li{
+    display: block;
+
+
+}
+ul  ul  ul {
+    top:0;
+    left:100% ;
+
+
+
+}
+/*navbar ends here*/
+
+/*main start from here*/
+main{
+	width:100%;
+     height:80vh;
+	
+	
+}
+img{
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	
+}
+.from{
+	width:400px;
+	height:400px;
+	float:left;
+	
+	
+	
+}
+.from1{
+	width:100%;
+	height:100%;
+	box-shadow:6px 12px 4px black;
+	transition:.5s;
+}
+.from1:hover{
+	box-shadow:6px 12px 4px green;
+	transform:translateX(45deg);
+}
+input{
+	text-align:center;
+	text-transform:uppercase;
+	padding:25px;
+    margin-left:center;
+	margin-left:15%;
+	font-size:20px;
+	border-radius:10px;
+	margin-top:25px;
+	box-shadow:4px 4px 2px black;
+	border:none;
+	outline:none;
+	
+}
+h2{
+	margin-top:23px;
+	text-align:center;
+}
+button{
+	padding:15px;
+	font-size:20px;
+	margin-left:40%;
+	border-radius:10px;
+	box-shadow:3px 3px 1px black;
+	text-transform:uppercase;
+	border:none;
+	outline:none;
+	cursor:pointer;
+}
+
+/*skill start from here*/
+
+.skill{
+	width:800px;
+	height:500px;
+	border:1px solid red;
+	float:right;
+	background:grey;
+
+	
+}
+.skills a{
+	display:block;
+	margin:15px 20px;
+	padding:20px 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	display:relative;
+	
+}
+.skills a::before{
+    content:'';
+	width:100%;
+	height:15px;
+	background-color:pink;
+	position:absolute;
+    top:calc(100%+5px);
+
+}
+skills a::after{
+    content:'';
+	width:100%;
+	height:15px;
+	background-color:blue;
+	position:absolute;
+    top:calc(100%+5px);
+
+} 
+
+
+
+
+h1{
+	text-align:center;
+	margin-top:12px;
+}
+
+
+
+/*skill end from here*/
+
+
+
+	
+
+
+
+
+/*main ends here*/
